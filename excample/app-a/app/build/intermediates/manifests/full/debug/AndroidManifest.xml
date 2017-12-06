@@ -8,6 +8,11 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -17,7 +22,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.liuk.example.MainActivity" >
+        <activity android:name="com.example.liuk.example.MainActivity" />
+        <activity
+            android:name="com.example.liuk.example.LoginActivity"
+            android:label="@string/title_activity_login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
