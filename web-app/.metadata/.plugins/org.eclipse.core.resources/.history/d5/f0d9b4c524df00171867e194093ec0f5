@@ -1,0 +1,16 @@
+package com.campaigo.control;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Base64;
+
+import com.campaigo.dbcontrol.UserManager;
+import com.jfinal.core.Controller;
+
+public class LoginController extends Controller {
+	public void index(){
+		String id = getPara("un");
+		String pwd = getPara("pw");
+		UserManager um = new UserManager();
+		renderText(um.login(id, pwd));
+	}
+}

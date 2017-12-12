@@ -1,0 +1,14 @@
+package com.campaigo.dbcontrol;
+
+import com.campaigo.dao.UserDAO;
+import com.campaigo.model.User;
+
+public class UserManager {
+	private UserDAO dao = new UserDAO();
+	public String login(String id,String pwd){
+		String retUserJson="";
+		User loginUser = dao.findUserById(id);
+		
+		return retUserJson;
+	}
+}

@@ -1,0 +1,7 @@
+package com.campaigo.model;
+
+public class PartyRelationShip {
+	private int partyRelationShipId;
+	private int partyRelationShipIdCamId;
+	private int role;
+}

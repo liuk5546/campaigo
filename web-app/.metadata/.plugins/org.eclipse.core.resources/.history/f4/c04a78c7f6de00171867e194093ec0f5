@@ -1,0 +1,5 @@
+package com.campaigo.dbcontrol;
+
+public class UserManager {
+
+}

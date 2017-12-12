@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.campaigo.control.IndexController"/>
+<fullyQualifiedTypeName name="com.jfinal.core.JFinal"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="com.campaigo.model.RoleType"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.campaigo.util.DBUtil"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.campaigo.dao.UserDAO"/>
+<fullyQualifiedTypeName name="com.campaigo.model.User"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.util.Base64"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
+<fullyQualifiedTypeName name="com.campaigo.dbcontrol.UserManager"/>
+<fullyQualifiedTypeName name="com.campaigo.control.LoginController"/>
+</qualifiedTypeNameHistroy>
