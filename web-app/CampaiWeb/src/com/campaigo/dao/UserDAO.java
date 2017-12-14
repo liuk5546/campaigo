@@ -22,7 +22,7 @@ public class UserDAO {
 				retUser.setId(rs.getString("id"));
 				retUser.setUsname(rs.getString("Usname"));
 				retUser.setPwd(rs.getString("pwd"));
-				retUser.setClassName("className");
+				retUser.setClassName(rs.getString("className"));
 				retUser.setPosition(rs.getString("position"));
 				retUser.setErrorLogin(false);
 			}

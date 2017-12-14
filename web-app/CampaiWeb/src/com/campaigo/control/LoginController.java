@@ -1,8 +1,5 @@
 package com.campaigo.control;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Base64;
-
 import com.campaigo.dbcontrol.UserManager;
 import com.jfinal.core.Controller;
 
@@ -14,4 +11,5 @@ public class LoginController extends Controller {
 		UserManager um = new UserManager();
 		renderText(um.login(id, pwd));
 	}
+	
 }

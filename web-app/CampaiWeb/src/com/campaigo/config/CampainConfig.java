@@ -1,5 +1,6 @@
 package com.campaigo.config;
 
+import com.campaigo.control.CampaignControl;
 import com.campaigo.control.IndexController;
 import com.campaigo.control.LoginController;
 import com.jfinal.config.Constants;
@@ -24,6 +25,7 @@ public class CampainConfig extends JFinalConfig {
 		// TODO Auto-generated method stub
 		me.add("/", IndexController.class);
 		me.add("/login",LoginController.class);
+		me.add("/campaign",CampaignControl.class);
 	}
 
 	@Override

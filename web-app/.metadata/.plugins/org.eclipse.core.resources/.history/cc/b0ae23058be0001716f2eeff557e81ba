@@ -1,0 +1,8 @@
+package com.campaigo.dao;
+
+public class CampaignDAO {
+	public void add() {
+		
+		
+	}
+}
