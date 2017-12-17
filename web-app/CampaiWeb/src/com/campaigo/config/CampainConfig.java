@@ -3,6 +3,7 @@ package com.campaigo.config;
 import com.campaigo.control.CampaignControl;
 import com.campaigo.control.IndexController;
 import com.campaigo.control.LoginController;
+import com.campaigo.control.OrgController;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
@@ -26,6 +27,7 @@ public class CampainConfig extends JFinalConfig {
 		me.add("/", IndexController.class);
 		me.add("/login",LoginController.class);
 		me.add("/campaign",CampaignControl.class);
+		me.add("/org",OrgController.class);
 	}
 
 	@Override

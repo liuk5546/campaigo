@@ -1,0 +1,41 @@
+package com.campaigo.control;
+
+import java.util.List;
+
+import com.alibaba.fastjson.JSON;
+import com.campaigo.dbcontrol.CampainManager;
+import com.campaigo.dbcontrol.UserManager;
+import com.campaigo.model.Campaign;
+import com.jfinal.core.Controller;
+
+public class CampaignControl extends Controller {
+	public void ask(){
+		String campaignJson = getPara("info");
+		String campaiOwn = getPara("id");
+		
+		boolean isOk = new CampainManager().askForCampaign(campaignJson,campaiOwn);
+		//如果没有申请成功就false 返回一个false
+//		if(isOk)
+//			renderText(campaignJson);
+//		else
+//			renderText("false");
+		renderText(String.valueOf(isOk));
+	}
+	
+	public void GetAll() {
+		List<Campaign> camList = new CampainManager().getAll();
+		String jsonList = JSON.toJSONString(camList);
+		renderText(jsonList);
+	}
+	
+	public void register(){
+		String id = getPara("id");
+		String caid = getPara("caid");
+		boolean render;
+		if(new UserManager().isExist(id))
+			render = new CampainManager().register(id, caid);
+		else
+			render = false;
+		renderText(String.valueOf(render));
+	}
+}

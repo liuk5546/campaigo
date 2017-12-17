@@ -6,6 +6,8 @@
 		<item value="NULL_RUNTIME"/>
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="/Users/liuk/Desktop/root.war"/>
+		<item value="/Users/liuk/Desktop/CampaiWeb.war"/>
 		<item value="/Users/liuk/Downloads/CampaiWeb.war"/>
 	</list>
 </section>

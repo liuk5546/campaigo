@@ -9,6 +9,7 @@ public class Campaign {
 	private Timestamp startline;
 	private Timestamp endline;
 	private String describe;
+	private boolean ispass;
 	
 	public int getCamid() {
 		return camid;
@@ -45,6 +46,12 @@ public class Campaign {
 	}
 	public void setDescribe(String describe) {
 		this.describe = describe;
+	}
+	public boolean isIspass() {
+		return ispass;
+	}
+	public void setIspass(boolean ispass) {
+		this.ispass = ispass;
 	}
 	
 	

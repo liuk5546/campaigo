@@ -1,14 +1,15 @@
 package com.campaigo.model;
 
 public class PartyRelationShip {
-	private int partyRelationShipId;
+	private String partyRelationShipId;
 	private int partyRelationShipIdCamId;
 	private int role;
 	
-	public int getPartyRelationShipId() {
+	
+	public String getPartyRelationShipId() {
 		return partyRelationShipId;
 	}
-	public void setPartyRelationShipId(int partyRelationShipId) {
+	public void setPartyRelationShipId(String partyRelationShipId) {
 		this.partyRelationShipId = partyRelationShipId;
 	}
 	public int getPartyRelationShipIdCamId() {
