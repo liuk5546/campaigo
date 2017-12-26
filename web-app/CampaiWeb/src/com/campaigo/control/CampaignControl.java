@@ -15,11 +15,6 @@ public class CampaignControl extends Controller {
 		String campaiOwn = getPara("id");
 		
 		boolean isOk = new CampainManager().askForCampaign(campaignJson,campaiOwn);
-		//如果没有申请成功就false 返回一个false
-//		if(isOk)
-//			renderText(campaignJson);
-//		else
-//			renderText("false");
 		renderText(String.valueOf(isOk));
 	}
 	

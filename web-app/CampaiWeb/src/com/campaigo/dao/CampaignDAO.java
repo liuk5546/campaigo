@@ -19,6 +19,7 @@ public class CampaignDAO {
 			PreparedStatement pst = conn.prepareStatement(sql);
 			pst.setString(1, campaign.getCaname());
 			pst.setTimestamp(2,campaign.getEndeadline());
+			System.out.print(campaign.getEndeadline()==null);
 			pst.setTimestamp(3, campaign.getStartline());
 			pst.setTimestamp(4, campaign.getEndline());
 			pst.setString(5, campaign.getDescribe());

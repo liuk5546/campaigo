@@ -1,9 +1,0 @@
-package com.campaigo.control;
-
-import com.jfinal.core.Controller;
-
-public class CampaignControl extends Controller {
-	public void ask(){
-		
-	}
-}

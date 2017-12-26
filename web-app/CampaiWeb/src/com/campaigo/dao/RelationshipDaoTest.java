@@ -1,0 +1,34 @@
+package com.campaigo.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RelationshipDaoTest {
+
+	private RelationshipDao dao = new RelationshipDao();
+	@Test
+	public void testAdd() {
+		dao.add("31501337", 1, 1);
+		assertEquals(1, 1);
+		assertEquals(0, 1);
+		assertEquals(1, 1);
+		
+	}
+
+	@Test
+	public void testFindbyKeyIntString() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindbyKeyInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindByUserId() {
+		fail("Not yet implemented");
+	}
+
+}

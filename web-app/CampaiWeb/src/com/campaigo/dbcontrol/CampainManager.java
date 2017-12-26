@@ -1,5 +1,6 @@
 package com.campaigo.dbcontrol;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,8 +38,10 @@ public class CampainManager {
 	//报名
 	public boolean register(String id,String caid){
 		PartyRelationShip prs = rdao.findbyKey(Integer.valueOf(caid), id);
+		//System.out.println("断点1："+prs.getPartyRelationShipIdCamId());
 		if(prs.getPartyRelationShipIdCamId()==-1){
 			rdao.add(id, Integer.valueOf(caid), 1);
+			//System.out.println("断点2");
 			return true;
 		}else{
 			return false;
@@ -90,6 +93,6 @@ public class CampainManager {
 		}
 	}
 	public static void main(String[] args) {
-		System.out.println(new CampainManager().findMyList("31501337"));
+		
 	}
 }

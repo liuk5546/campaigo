@@ -53,5 +53,21 @@ public class User {
 		position = "";
 		errorLogin = true;
 	}
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		boolean result = true;
+		User user = (User)obj;
+		if((!this.id.equals(user.getId()))
+				||(!this.position.equals(user.getPosition()))
+				||(!this.pwd.equals(user.getPwd()))
+				||(!this.usname.equals(user.getUsname()))
+				||(!this.className.equals(user.getClassName()))
+				||(!(this.isErrorLogin()==false))){
+			result = false;
+		}
+		return result;
+	}
+	
 	
 }

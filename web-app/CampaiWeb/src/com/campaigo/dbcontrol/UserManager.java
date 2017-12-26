@@ -57,4 +57,7 @@ public class UserManager {
 		}
 		
 	}
+	public static void main(String[] args) {
+		System.out.println(new UserManager().findLender("7").getUsname());
+	}
 }

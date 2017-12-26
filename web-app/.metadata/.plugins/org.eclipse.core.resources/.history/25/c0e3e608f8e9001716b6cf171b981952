@@ -1,0 +1,49 @@
+package com.campaigo.dbcontrol;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CampainManagerTest {
+
+	@Test
+	public void testAskForCampaign() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAll() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsExist() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindMyList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindNoPass() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPassCampaign() {
+		fail("Not yet implemented");
+	}
+
+}
