@@ -1,0 +1,55 @@
+package com.campaigo.dbcontrol;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CampainManagerTest {
+	private CampainManager cm = new CampainManager();
+	private String testJson;
+	private String testUser;
+	@Test
+	public void testAskForCampaign() {
+		testJson = "{\"camid\":9,\"caname\":\"社团文化节\r\",\"describe\":\"第十七节ZUCC"
+				+ "社团文化节\r\",\"endeadline\":1514505600000,\"endline\":1514247000000,\"ispass\":true,\"startline\":1514248200000}";
+		testUser  = "zucc0002";
+		boolean ret = cm.askForCampaign(testJson, testUser);
+		assertEquals(false, ret);
+	}
+
+	@Test
+	public void testGetAll() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsExist() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindMyList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindNoPass() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPassCampaign() {
+		fail("Not yet implemented");
+	}
+
+}

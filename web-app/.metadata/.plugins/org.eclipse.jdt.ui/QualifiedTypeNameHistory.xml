@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.campaigo.control.IndexController"/>
+<fullyQualifiedTypeName name="com.jfinal.core.JFinal"/>
+<fullyQualifiedTypeName name="com.campaigo.model.RoleType"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.util.Base64"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="com.campaigo.control.LoginController"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.campaigo.config.CampainConfig"/>
+<fullyQualifiedTypeName name="com.campaigo.control.CampaignControl"/>
+<fullyQualifiedTypeName name="com.campaigo.dao.RelationshipDao"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
+<fullyQualifiedTypeName name="com.campaigo.dao.PartyRelationShipDAO"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.campaigo.util.DBUtil"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.campaigo.dbcontrol.UserManager"/>
+<fullyQualifiedTypeName name="com.campaigo.dao.CampaignDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.campaigo.model.PartyRelationShip"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.campaigo.control.OrgController"/>
+<fullyQualifiedTypeName name="com.campaigo.model.Campaign"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.campaigo.dbcontrol.CampainManager"/>
+<fullyQualifiedTypeName name="com.campaigo.dao.UserDAO"/>
+<fullyQualifiedTypeName name="com.jfinal.aop.Before"/>
+<fullyQualifiedTypeName name="com.campaigo.model.User"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>
